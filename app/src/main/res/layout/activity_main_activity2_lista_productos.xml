@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2ListaProductos">
+
+    <TextView
+        android:id="@+id/lblTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C2E8BB"
+        android:backgroundTint="#9AD59D"
+        android:text="Lista de Productos"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtListaProduc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:text="Lista"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+</RelativeLayout>
